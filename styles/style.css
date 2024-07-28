@@ -108,6 +108,7 @@ nav > h1{
 .first-banner p{
     font-size: 1rem;
     margin-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.5);
 }
 .btn-primary{
     padding: 0.7rem 2.5rem;
@@ -151,20 +152,25 @@ nav > h1{
 .text-500{
     top: 100px;
     right: 50px;
+    background-color: rgba(255, 255, 255, 0.185);
+    
 }
 .text-500 h1,.text-350 h1{
     font-size: 2rem;
 }
 .text-500 p,.text-350 p{
     font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
 }
 .text-350{
-     margin-top: 30px;
+    background-color: rgba(48, 48, 48, 0.54);
+     margin-top: 35px;
     bottom: 50px;
     left: 0;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    
 }
 .fa-circle-play{
     font-size: 3rem;
@@ -328,7 +334,7 @@ nav > h1{
     }
     .run-content-img{
         width: 90%;
-        margin: 0 auto;
+        
     }
     .run-content-img img{
         width: 100%;
