@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 
 
 *{
@@ -34,7 +34,7 @@ nav {
 }
 
 
-nav > div{
+nav  div{
     width: 40%;
     border: 1px solid rgba(255, 255, 255, 0.192);
     border-radius: 2rem;
@@ -52,8 +52,6 @@ nav .fa-solid{
 .nav-background{
     background-color: #e6533c;
 }
-
-
 
 nav > div > ul{
     font-weight: 600;
@@ -85,11 +83,11 @@ nav > h1{
 }
 .first-banner h1{
     font-size: 4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
 
 }
 .first-banner h1 > span{
-    font-family: "Dancing Script", cursive;
+    font-family: 'Miama', sans-serif;                                                            
     font-size: 5rem;
     font-style: 500;
 
@@ -238,6 +236,98 @@ nav > h1{
     height: 280px;
     border-radius: 1rem;
    
+}
+
+
+.bmi-text {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px;
+   
+}
+.bmi-text h1{
+    margin-bottom: 1.8rem;
+    font-size: 46px;
+    font-weight: 800px;
+    color: white;
+    
+}
+.bmi-text p{
+    margin-bottom: 2 rem ;
+    font-size: 14px;
+    color: rgb(255, 255, 255, 0.5);
+    
+}
+
+.bmi-container{
+    padding-top: 40px;
+    padding-bottom: 46px;
+}
+
+.bmi-content{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    gap: 1rem;
+}
+
+.chart-bmi table,tr,td,th{
+    border: rgba(255, 255, 255, 0.5) 1px solid ;
+    border-collapse: collapse;
+
+}
+.chart-bmi table{
+    height: 200px;
+    text-align: left;
+}
+.chart-bmi th{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 16px;
+
+}
+.chart-bmi  td{
+    font-size: 17px;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.5);
+    padding: 14px;
+}
+.chart-bmi .bmi-chart-title{
+    margin-bottom: 2rem;
+    font-size: 28px;
+    font-weight: 800;
+}
+.calculator-bmi h1{
+    margin-bottom: 1rem;
+    color: white;
+}
+.calculator-bmi p{
+    font-size: 14px;
+    color: rgb(255, 255, 255, 0.5);
+    
+}
+.input-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 20px;
+}
+.input-part input,select{
+    border: none;
+    border-radius: 8px;
+    background:rgba(129, 115, 115, 0.411);
+    color: rgba(255, 255, 255, 0.575);
+    padding: 16px 20px;
+}
+.input-part input::placeholder{
+    color: rgba(255, 255, 255, 0.555);
+    padding-left: 2px;
+}
+
+#factor{
+    grid-column: span 2;
 }
 
 .card-container{
@@ -439,9 +529,30 @@ a{
 
     }
 
+    .bmi-text{
+        margin-top: 1rem;
+        max-width: 80%;
+        margin-left: 2px;
+    }
+
+    .bmi-content{
+        grid-template-columns: 1fr;
+    }
 
 
-
+    .bmi-content{
+        margin-left: 8px;
+        margin-right: 16px;
+    }
+    .calculator-bmi p,h1 {
+        margin-bottom: 15px;
+    }
+    .input-part{
+        gap: 8px;
+    }
+    .input-part input,select{
+        width: 100%;
+    }
 
     .card-image-body{
         width: 90%;
@@ -452,8 +563,6 @@ a{
     .odvut {
         width: 100%;
     }
-    
-
     
     .footer-container{
         max-width: 93%;
