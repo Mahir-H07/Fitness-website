@@ -16,37 +16,29 @@ body{
 }
 
 
-.nav-color{
-    color: #e6533c;
-}
-.nav-background{
-    background-color: #e6533c;
-}
+
 
 header {
     height: 100%;
     color: white;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
     padding-top: 3rem;
     
 }
 nav {
     max-width: 1100px;
     height: 70px;
-    font-weight: 800;
-    line-height: 120%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+
 nav > div{
     width: 40%;
-    border: 1px solid rgba(255, 255, 255, 0.167);
+    border: 1px solid rgba(255, 255, 255, 0.192);
     border-radius: 2rem;
-    box-shadow: rgba(228, 8, 8, 0.05) 0px 6px 24px 0px, rgba(211, 10, 10, 0.08) 0px 0px 0px 1px;
-    padding: 0.4rem;
+    padding: 0.7rem;
 }
 nav .fa-solid{
     display: none;
@@ -57,14 +49,19 @@ nav .fa-solid{
     border-radius: 1rem;
     padding: 0.5rem 1.5rem;
 }
+.nav-background{
+    background-color: #e6533c;
+}
+
 
 
 nav > div > ul{
-    font-weight: 700;
+    font-weight: 600;
+    border-radius: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 1rem;
+   
 }
 nav > div > ul > li{
     list-style: none;
@@ -72,6 +69,9 @@ nav > div > ul > li{
 }
 nav > h1{
     font-size: 4rem;
+}
+.nav-color{
+    color: #e6533c;
 }
 .banner-container{
     max-width: 1100px;
@@ -105,9 +105,8 @@ nav > h1{
     border-radius: 2rem;
     border: 2px solid rgba(128, 128, 128, 0.461);
     color: white;
-    font-weight: 700;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
+    font-weight: 600;
+  
 }
 .border{
     border: none;
@@ -124,19 +123,19 @@ nav > h1{
     justify-content: center;
 }
 .second-banner img{
-    width: 335px;
-    height: 580px;
+    width: 340px;
+    height: 566px;
 }
 .text-500,.text-350{
    
     width: 190px;
-    height: 98px;
+    height: 90px;
     filter: blur(20);
     background: gray;
     position: absolute;    
     border-radius: 1rem;
     color: white;
-    padding: 15px;
+    padding: 18px;
 
 }
 .text-500{
@@ -146,10 +145,10 @@ nav > h1{
     
 }
 .text-500 h1,.text-350 h1{
-    font-size: 2rem;
+    font-size: 1.9rem;
 }
 .text-500 p,.text-350 p{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.5);
 }
 .text-350{
@@ -177,10 +176,10 @@ nav > h1{
 .change-text-content{
     text-align: center;
     margin-top: 120px;
-    margin-bottom: 55px;
+    margin-bottom: 58px;
 }
 .change-text-content h2{
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 1rem;
 }
 .change-text-content p{
@@ -196,7 +195,7 @@ nav > h1{
 }
 .habit{
     text-align: center;
-    margin-bottom: 74px;
+    margin-bottom: 70px;
 }
 .habit p{
     margin-top: 8px;
@@ -209,26 +208,24 @@ nav > h1{
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    margin-bottom: 26px;
+    margin-bottom: 20px;
     
 }
 
 .run-container{
     max-width: 1100px;
     margin: 0 auto;
-    border-radius: 1rem;
-    margin-bottom: 100px;
-    color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 160px;
+    color: white;
     padding: 30px 30px 30px 48px;
    
     
 }
 .run-content h1{
-    font-size: 3rem;
+    font-size: 2.7rem;
     margin-bottom: 1rem;
 }
 .run-content p{
@@ -237,10 +234,10 @@ nav > h1{
     color: #FFFFFF80;
 }
 .run-img img{
-    max-width: 380px;
+    max-width: 100%;
     height: 280px;
     border-radius: 1rem;
-    margin-left: 2px;
+   
 }
 
 .card-container{
@@ -249,7 +246,7 @@ nav > h1{
     padding: 3.8rem 0;
 }
 .card-content{
-    width: 70%;
+    width: 66%;
     margin: 0 auto;
     text-align: center;
 }
@@ -257,7 +254,7 @@ nav > h1{
     color: white;
     font-size: 2.5rem;
     font-weight: 700px; 
-        margin-bottom: 1rem;
+       
      
 
 }
@@ -316,27 +313,27 @@ nav > h1{
     gap:100px;
 
 }
-.footer-content p{
-    margin-top: 20px;
-}
-
-.footer-content ul>li{
-    margin-bottom: 15px;
-
-}
 
 .footer-content h2{
-    font-size: 68px;
+    font-size: 80px;
     margin-bottom: 1rem;
-}
-.footer-content> ul> li> h3{
-    font-size: 1rem;
-    color: white;
 }
 .footer-content p{
     font-size: 1rem;
     margin-bottom: 1rem;
     color:rgba(244, 228, 228, 0.5) ;
+}
+
+
+.footer-content ul>li{
+    margin-bottom: 10px;
+    
+
+}
+
+.footer-content> ul> li> h3{
+    font-size: 1.4rem;
+    color: white;
 }
 
 a{
