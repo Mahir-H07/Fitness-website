@@ -140,11 +140,12 @@ nav > h1{
     
 }
 .text-500 h1,.text-350 h1{
-    font-size: 1.9rem;
+    font-size: 20px;
 }
 .text-500 p,.text-350 p{
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.5);
+    padding: 0 2px;
 }
 .text-350{
     background-color: rgba(48, 48, 48, 0.54);
@@ -157,7 +158,7 @@ nav > h1{
     
 }
 .fa-circle-play{
-    font-size: 3rem;
+    font-size: 45px;
     color: tomato;
 }
 
@@ -190,11 +191,11 @@ nav > h1{
 }
 .habit{
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
 .habit p{
     margin-top: 8px;
-    font-size: 0.9rem;
+    font-size: 14px;
     color: #FFFFFF80;
 
 }
@@ -215,7 +216,7 @@ nav > h1{
     align-items: center;
     gap: 160px;
     color: white;
-    padding: 30px 30px 30px 48px;
+    padding: 25px 42px 25px 48px;
     background: rgba(34, 34, 34, 0.74);
     border-radius: 16px;
     
@@ -315,11 +316,11 @@ nav > h1{
     gap: 12px;
     margin-top: 20px;
 }
-.input-part input,select{
+.input-part input, select{
     border: none;
     border-radius: 8px;
-    background:rgba(129, 115, 115, 0.411);
-    color: rgba(255, 255, 255, 0.575);
+    background:rgba(129, 115, 115, 0.521);
+    color: rgba(255, 255, 255, 0.685);
     padding: 16px 20px;
 }
 .input-part input::placeholder{
@@ -343,15 +344,15 @@ nav > h1{
 }
 .card-content h1{
     color: white;
-    font-size: 2.5rem;
+    font-size: 35px;
     font-weight: 700px; 
        
      
 
 }
 .card-content p{
-    font-size: 1rem;
-    margin-bottom: 1.5rem;
+    font-size: 16px;
+    margin-bottom: 20px;
     color: rgb(255, 255, 255, 0.5);
 }
 .card-image-body{
@@ -380,7 +381,7 @@ nav > h1{
     width: 100%;
     height: 100%;
     border-radius: 14px;
-    filter:brightness(81%);
+    
 
 }
 .card-text{
@@ -391,7 +392,7 @@ nav > h1{
 }
 
 .card-text p{
-    font-size: 0.9rem;
+    font-size: 15px;
     color:rgba(244, 228, 228, 0.5) ;
 
 }
@@ -429,7 +430,7 @@ footer{
 }
 
 .footer-content> ul> li> h3{
-    font-size: 1.4rem;
+    font-size: 20px;
     color: white;
 }
 
@@ -472,7 +473,7 @@ a{
 
     nav .fa-solid{
         display: block;
-        font-size: 1.4rem;
+        font-size: 22px;
     }
 
     .banner-container{
@@ -484,8 +485,8 @@ a{
     }
     .text-500,.text-350{
         width: 140px;
-        background: #363636;
-        box-shadow: rgba(60, 45, 45, 0.05) 0px 6px 24px 0px, rgba(92, 90, 90, 0.08) 0px 0px 0px 1px;
+        background: #363636e0;
+        box-shadow: rgba(60, 45, 45, 0.137) 0px 6px 24px 0px, rgba(92, 90, 90, 0.08) 0px 0px 0px 1px;
         padding: 10px;
 
     }
@@ -509,13 +510,13 @@ a{
 
       
     .run-container{
-       
+        width: 90%;
         grid-template-columns: 1fr;
+        height: 100%;
         gap: 20px;
-        width: 91%;
         margin: 0 auto;
         padding: 0;
-        height: 100%;
+        
     }
     .run-content{
         padding: 40px;
@@ -537,7 +538,7 @@ a{
     }
 
     .bmi-text{
-        margin-top: 1rem;
+        margin-top: 15px;
         max-width: 80%;
         margin-left: 2px;
     }
@@ -567,7 +568,7 @@ a{
         grid-template-columns: 1fr;
     }
   
-    .odvut {
+    .odvut{
         width: 100%;
     }
     
