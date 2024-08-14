@@ -84,7 +84,7 @@ nav > h1{
 
 }
 .first-banner h1 > span{
-    font-family: 'Miama', sans-serif;                                                            
+    font-family: 'Miama', sans-serif;                       
     font-size: 5rem;
     font-style: 500;
 
@@ -449,13 +449,13 @@ nav > h1{
 
 
 }
-.instruments-right img{
+.instruments-second img{
     max-width: 300px;
     max-height: 350px;
     border-radius: 8px;
     box-shadow: 2px 2px 10px 5px rgb(111, 107, 23);
 }
-.instruments-right{
+.instruments-second{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 32px;
@@ -548,10 +548,7 @@ a{
     .banner-container{
         grid-template-columns: 1fr;
     }
-    .banner-right img{
-        width: 70%;
-        margin: 0 auto;
-    }
+   
     .text-500,.text-350{
         width: 140px;
         background: #363636e0;
@@ -641,11 +638,11 @@ a{
         width: 90%;
         margin: 0 auto;
     }
-    .instruments-right{
+    .instruments-second{
         width: 90%;
         margin: 0 auto;
     }
-    .instruments-right img{
+    .instruments-second img{
         width: 100%;
     }
    
